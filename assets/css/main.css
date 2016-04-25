@@ -1619,8 +1619,22 @@
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1.25em;
 		line-height: 1.5em;
+		background: #5db;
+		color: #fff;
+		width: 210px;
+		text-align: center;
+		padding: 5px 12px 5px 12px;
+		border-radius: 6px;
+	}
+
+	h5:hover {
+		-moz-transition: background-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
+		background-color: #287;
 	}
 
 	h6 {
