@@ -2041,6 +2041,7 @@
 			.image.avatar img {
 				border-radius: 100%;
 				display: block;
+				height: 120px;
 				width: 100%;
 			}
 
