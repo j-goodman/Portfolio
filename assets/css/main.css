@@ -2040,7 +2040,7 @@
 
 			.image.avatar img {
 				border-radius: 100%;
-				display: block;
+				display: inline-block;
 				height: 120px;
 				width: 100%;
 			}
