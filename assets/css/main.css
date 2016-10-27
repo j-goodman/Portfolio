@@ -10,31 +10,31 @@ html, body, section, div, span, iframe, h1, h2, h3, h4, h5, h6, p, img, ol, ul, 
 }
 
 body {
-	background: black;
+	background: #170C10;
 }
 
 .frame {
-	background: #708090;
+	background: #2E301B;
 	display: flex;
 	flex-direction: row;
 	padding: 8px 6px 8px 0px;
 }
 
 .interior {
-	background: #100020;
-	color: #eeeeff;
+	background: #636148;
+	color: #EAE1F4;
 	padding: 22px;
 	text-align: justify;
 }
 
 .sidebar {
-	background: #708090;
+	background: #2E301B;
 	width: 50px;
 }
 
 .side-link {
-	background: #907080;
-	color: #eeeeff;
+	background: #636148;
+	color: #170C10;
 	height: 50px;
 	list-style: none;
 	margin: 32px 6px 32px 6px;
