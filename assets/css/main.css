@@ -1,5 +1,4 @@
-@import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 html, body, section, div, span, iframe, h1, h2, h3, h4, h5, h6, p, img, ol, ul, li,{
 	margin: 0;
@@ -10,45 +9,41 @@ html, body, section, div, span, iframe, h1, h2, h3, h4, h5, h6, p, img, ol, ul, 
 }
 
 body {
-	background: #170C10;
+	background: #eddcb6;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .frame {
-	background: #2E301B;
+	background: #bc763e;
 	display: flex;
 	flex-direction: row;
-	padding: 8px 6px 8px 0px;
+	height: 90%;
+	margin: auto;
+	padding: 8px 8px 8px 0px;
+	width: 90%;
 }
 
 .interior {
-	background: #636148;
-	color: #EAE1F4;
+	background: #e5b87c;
+	color: #44200a;
 	padding: 22px;
 	text-align: justify;
 }
 
 .sidebar {
-	background: #2E301B;
+	background: #bc763e;
 	width: 50px;
 }
 
 .side-link {
-	background: #636148;
-	color: #170C10;
+	background: #e5b87c;
+	color: #44200a;
 	height: 50px;
+	right: 24px;
 	list-style: none;
 	margin: 32px 6px 32px 6px;
-	left: -36px;
-	line-height: 54px;
+	line-height: 50px;
 	position: relative;
 	text-align: center;
 	width: 50px;
-}
-
-.side-link:first-child {
-	margin-top: 0px;
-}
-
-.side-link:last-child {
-	margin-top: 0px;
 }
