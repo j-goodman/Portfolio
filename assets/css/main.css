@@ -17,10 +17,25 @@ body {
 	background: #bc763e;
 	display: flex;
 	flex-direction: row;
-	height: 90px;
+	height: 80px;
 	list-style: none;
 	margin: -8px 0px 0px -8px;
 	width: 106%;
+}
+
+.header-link {
+	background: #e5b87c;
+	height: 60px;
+	line-height: 60px;
+	margin: 10px;
+	width: 60px;
+}
+
+.header-link, .side-link {
+	background: #e5b87c;
+	color: #44200a;
+	list-style: none;
+	text-align: center;
 }
 
 .frame {
@@ -46,14 +61,10 @@ body {
 }
 
 .side-link {
-	background: #e5b87c;
-	color: #44200a;
 	height: 50px;
 	right: 26px;
-	list-style: none;
-	margin: 32px 6px 32px 6px;
 	line-height: 50px;
+	margin: 32px 6px 32px 6px;
 	position: relative;
-	text-align: center;
 	width: 50px;
 }
