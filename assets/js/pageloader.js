@@ -1,18 +1,39 @@
 window.onload = function () {
   var loadPage;
   var loadArticle;
+  var setUpFilterButtons;
+  var mainDoc;
+  mainDoc = document.getElementById('main');
 
-  loadPage = function () {
-    var x;
-    for (x=0;x<contentList.length;x++) {
-      loadArticle(contentList[x]);
+  loadPage = function (tag) {
+    var x; var y;
+    for (y=mainDoc.childNodes.length-1;y>=0;y--) {
+      mainDoc.removeChild(mainDoc.childNodes[y]);
     }
+    for (x=0;x<contentList.length;x++) {
+      if (!tag || contentList[x].tags.includes(tag)) {
+        loadArticle(contentList[x]);
+      }
+    }
+  };
+
+  setUpFilterButtons = function () {
+    var about;
+    var games;
+    about = document.getElementById('about');
+    games = document.getElementById('games');
+    about.onclick = function () {
+      loadPage('about');
+    };
+    games.onclick = function () {
+      loadPage('games');
+    };
   };
 
   loadArticle = function (article) {
     var el;
     var title;
-    var y;
+    var z;
     var section;
     var subEl;
     var imgEl;
@@ -22,8 +43,8 @@ window.onload = function () {
     title.innerHTML = article.title;
     title.className = 'title';
     el.appendChild(title);
-    for (y=0;y<article.body.length;y++) {
-      section = article.body[y];
+    for (z=0;z<article.body.length;z++) {
+      section = article.body[z];
       switch (section.type) {
         case 'block':
           subEl = document.createElement('p');
@@ -35,6 +56,10 @@ window.onload = function () {
           subEl = document.createElement('a');
           if (section.link) {
             subEl.href = section.link;
+            subEl.target = '_blank';
+            subEl.className = 'picture picture-link';
+          } else {
+            subEl.className = 'picture';
           }
           imgEl = document.createElement('img');
           capEl = document.createElement('p');
@@ -44,13 +69,13 @@ window.onload = function () {
           subEl.appendChild(imgEl);
           capEl.className = 'caption';
           subEl.appendChild(capEl);
-          subEl.className = 'picture';
           el.appendChild(subEl);
           break;
       }
     }
     el.className = 'column';
-    document.body.appendChild(el);
+    mainDoc.appendChild(el);
   };
+  setUpFilterButtons();
   loadPage();
 };
