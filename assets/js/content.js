@@ -36,6 +36,19 @@ var contentList = [
   // }),
 
   new Article ({
+    title: "Dice",
+    date: '20160820',
+    tags: [],
+    body: [
+      new Picture ({
+        filename: 'dice.png',
+        link: 'http://www.abolbridge.com/dice/',
+        caption: "Simple dice game built with basic HTML and vanilla Javascript. About 160 lines of code.",
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "The Wendigo",
     date: '20160822',
     tags: ['games'],
@@ -44,19 +57,6 @@ var contentList = [
         filename: 'thewendigo.png',
         link: 'http://www.abolbridge.com/wendigo/',
         caption: "An in-progress text adventure game.",
-      }),
-    ]
-  }),
-
-  new Article ({
-    title: "Dice",
-    date: '20160820',
-    tags: ['games'],
-    body: [
-      new Picture ({
-        filename: 'dice.png',
-        link: 'http://www.abolbridge.com/dice/',
-        caption: "Simple dice game built with basic HTML and vanilla Javascript. About 160 lines of code.",
       }),
     ]
   }),
@@ -147,7 +147,7 @@ var contentList = [
         caption: "Hi, I'm John Goodman, this is my personal site. You can look me up on <a href='https://github.com/j-goodman/DOMquixote' target='_blank'>Github</a> or just browse around here to see what I'm working on.",
       }),
       new Block ({
-        text: "I'm a full-stack web developer specializing in Javascript, Ruby on Rails, and Angular.js, living in Brooklyn and working in Manhattan. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. Abol Bridge is a bridge on the Golden Road in Maine which I am not affiliated with. Nice bridge though."
+        text: "I'm a full-stack web developer specializing in Javascript, Ruby on Rails, and Angular.js, living in Brooklyn and working in Manhattan. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. Abol Bridge is a bridge on the Golden Road in Maine which I am not affiliated with. Nice bridge though. You can contact me at johncurtisgoodman@gmail.com"
       }),
     ]
   }),

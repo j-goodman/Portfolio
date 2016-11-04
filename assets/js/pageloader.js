@@ -16,24 +16,23 @@ window.onload = function () {
       }
     }
     console.log(contentList[0].tags);
-    if (tag) {
-      loader.className = 'loader-expand';
-      window.setTimeout(function () {
-        loader.className = 'loader-collapse';
-      }, 250);
-    }
   };
 
   setUpFilterButtons = function () {
     var about;
     var games;
+    var title;
     about = document.getElementById('about');
     games = document.getElementById('games');
+    title = document.getElementById('title');
     about.onclick = function () {
       loadPage('about');
     };
     games.onclick = function () {
       loadPage('games');
+    };
+    title.onclick = function () {
+      loadPage();
     };
   };
 
