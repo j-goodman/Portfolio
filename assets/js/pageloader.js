@@ -2,8 +2,8 @@ window.onload = function () {
   var loadPage;
   var loadArticle;
   var setUpFilterButtons;
-  var mainDoc;
-  mainDoc = document.getElementById('main');
+  var mainDoc = document.getElementById('main');
+  var loader = document.getElementById('loader');
 
   loadPage = function (tag) {
     var x; var y;
@@ -14,6 +14,13 @@ window.onload = function () {
       if (!tag || contentList[x].tags.includes(tag)) {
         loadArticle(contentList[x]);
       }
+    }
+    console.log(contentList[0].tags);
+    if (tag) {
+      loader.className = 'loader-expand';
+      window.setTimeout(function () {
+        loader.className = 'loader-collapse';
+      }, 250);
     }
   };
 

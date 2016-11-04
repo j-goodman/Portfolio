@@ -23,6 +23,7 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 1;
 }
 
 .header-title {
@@ -57,11 +58,23 @@ body {
 }
 
 .column {
+	position: relative;
+	top: 25px;
 	background: #ffffff;
 	border-left: 3px solid #e0e0e0;
 	margin: auto;
 	padding: 8px 32px 32px;
 	width: 62%;
+}
+
+.loader-collapse {
+	height: 0;
+	transition: height .2s;
+}
+
+.loader-expand {
+	height: 120px;
+	transition: height .2s;
 }
 
 @media (max-width: 1120px) {
