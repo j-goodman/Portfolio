@@ -69,7 +69,7 @@ window.onload = function () {
           }
           imgEl = document.createElement('img');
           capEl = document.createElement('p');
-          imgEl.src = './assets/images/' + section.filename;
+          imgEl.src = 'assets/images/' + section.filename;
           capEl.innerHTML = section.caption;
           imgEl.className = 'image';
           subEl.appendChild(imgEl);
