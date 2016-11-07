@@ -85,7 +85,7 @@ body {
 
 @media (max-width: 1120px) {
 	.column {
-		width: 90%;
+		width: 82%;
 	}
 }
 
@@ -167,6 +167,11 @@ a:hover {
 	}
 	.image {
 		width: 100%;
+	}
+	.caption {
+		margin-left: 0;
+		padding-left: 5%;
+		width: 95%;
 	}
 }
 
