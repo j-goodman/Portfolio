@@ -1,6 +1,7 @@
 window.onload = function () {
   var loadPage;
   var loadArticle;
+  var parseDate;
   var setUpFilterButtons;
   var mainDoc = document.getElementById('main');
   var loader = document.getElementById('loader');
@@ -15,7 +16,6 @@ window.onload = function () {
         loadArticle(contentList[x]);
       }
     }
-    console.log(contentList[0].tags);
   };
 
   setUpFilterButtons = function () {
@@ -36,6 +36,17 @@ window.onload = function () {
     };
   };
 
+  parseDate = function (date) {
+    var string = '';
+    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    string += months[parseInt(date.slice(4, 6))-1];
+    string += ' ';
+    string += parseInt(date.slice(6, 8)).toString();
+    string += ', ';
+    string += parseInt(date.slice(0, 4)).toString();
+    return string;
+  };
+
   loadArticle = function (article) {
     var el;
     var title;
@@ -49,6 +60,10 @@ window.onload = function () {
     title.innerHTML = article.title;
     title.className = 'title';
     el.appendChild(title);
+    date = document.createElement('h2');
+    date.className = 'date';
+    date.innerText = parseDate(article.date);
+    el.appendChild(date);
     for (z=0;z<article.body.length;z++) {
       section = article.body[z];
       switch (section.type) {
@@ -84,4 +99,5 @@ window.onload = function () {
   };
   setUpFilterButtons();
   loadPage();
+  console.log(parseDate('20160820'));
 };
