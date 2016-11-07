@@ -80,7 +80,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'shooterdemo.png',
-        link: 'http://www.abolbridge.com/dice/',
+        link: 'http://www.abolbridge.com/demo/',
         caption: "Conceptual demo for a 2-D gameplay third person shooter.",
       }),
     ]
