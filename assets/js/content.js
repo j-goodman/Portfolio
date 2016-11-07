@@ -40,6 +40,9 @@ var contentList = [
     date: '20160820',
     tags: [],
     body: [
+      new Block ({
+        text: "This one's a pretty straightforward HTML dice game, it's based on a game we used to play at the summer camp I worked at -- it's a lot of fun with a big circle of people rolling, maybe not as much with just one player online. Anyway, I wanted to get some experience building a game just with DOM manipulation rather than rendering it onto a canvas element, which is my usual approach. Saves a lot of effort, as long as the game is simple enough."
+      }),
       new Picture ({
         filename: 'dice.png',
         link: 'http://www.abolbridge.com/dice/',
@@ -53,10 +56,16 @@ var contentList = [
     date: '20160822',
     tags: ['games'],
     body: [
+      new Block ({
+        text: "I wanted to make a text-adventure game building system that was straightforward and adaptable enough that when I finally get around to making one I'll have all the heavy mechanical lifting already done. This one includes traveling logic, stats, inventory, and a turn-based combat system."
+      }),
       new Picture ({
         filename: 'thewendigo.png',
         link: 'http://www.abolbridge.com/wendigo/',
         caption: "An in-progress text adventure game.",
+      }),
+      new Block ({
+        text: "From a development philosophy perspective, my goal here was to take Javascript objects as literally as possible -- for instance, when the user picks up an object from their environment, the object where that item's data is stored is moved from being recorded in the room object to being kept in the player's inventory object, as you might intuitively expect. The object system is my favorite feature of Javascript, so it was a lot of fun to play around with it in getting this to work."
       }),
     ]
   }),
@@ -66,6 +75,9 @@ var contentList = [
     date: '20160804',
     tags: [],
     body: [
+      new Block ({
+        text: "I remember in high school I made a painball game on GameMaker 6 using a similar control mechanic as this demo, but since then I've lost the files for it. Probably the longest full-length game I've made, and while the controls here are clunkier than I remember getting them to be it's still something I might want to think about going deeper into again. This is just proof of concept for the controls."
+      }),
       new Picture ({
         filename: 'shooterdemo.png',
         link: 'http://www.abolbridge.com/dice/',
