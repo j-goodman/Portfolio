@@ -36,17 +36,20 @@ var contentList = [
   // }),
 
   new Article ({
-    title: "Dice",
-    date: '20160820',
+    title: "Germs",
+    date: '20161118',
     tags: [],
     body: [
       new Block ({
-        text: "This one's a pretty straightforward HTML dice game, it's based on a game we used to play at the summer camp I worked at -- it's a lot of fun with a big circle of people rolling, maybe not as much with just one player online, where it's just a game of trying to beat your own score. Anyway, I wanted to get some experience building a game just with DOM manipulation rather than rendering it onto a canvas element, which is my usual approach. Saves a lot of effort, as long as the game is simple enough."
+        text: "The idea for this one is to be sort of a petri dish simulator. Each of the individual cells follows a basic set of rules, based on a thirteen character 'DNA string' that sets values like their size, speed, and number of offspring. The autotrophs grow naturally and split when they reach a certain radius, while the heterotrophs move around in search of prey and avoid predators."
       }),
       new Picture ({
-        filename: 'dice.png',
-        link: 'http://www.abolbridge.com/dice/',
-        caption: "Simple dice game built with basic HTML and vanilla Javascript. About 160 lines of code.",
+        filename: 'germs.png',
+        link: 'http://www.abolbridge.com/germs2/',
+        caption: "A digital petri dish that lets you set up and observe the processes of ecological competition and natural selection.",
+      }),
+      new Block ({
+        text: "When the germs split, they replicate their DNA string and pass it on to their offspring. In order to imitate the process of mutation, this replication is imperfect, and sometimes results in random errors. A good starting setup is to put in 20-100 autotrophs and 1-10 herbivores and carnivores."
       }),
     ]
   }),
@@ -98,6 +101,22 @@ var contentList = [
         filename: 'moretunnels.png',
         link: 'http://www.abolbridge.com/MoreTunnels/',
         caption: "Demo version of a browser based platform game, built from scratch with Javascript and HTML Canvas.",
+      }),
+    ]
+  }),
+
+  new Article ({
+    title: "Dice",
+    date: '20160820',
+    tags: [],
+    body: [
+      new Block ({
+        text: "This one's a pretty straightforward HTML dice game, it's based on a game we used to play at the summer camp I worked at -- it's a lot of fun with a big circle of people rolling, maybe not as much with just one player online, where it's just a game of trying to beat your own score. Anyway, I wanted to get some experience building a game just with DOM manipulation rather than rendering it onto a canvas element, which is my usual approach. Saves a lot of effort, as long as the game is simple enough."
+      }),
+      new Picture ({
+        filename: 'dice.png',
+        link: 'http://www.abolbridge.com/dice/',
+        caption: "Simple dice game built with basic HTML and vanilla Javascript. About 160 lines of code.",
       }),
     ]
   }),
