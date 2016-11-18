@@ -57,7 +57,7 @@ var contentList = [
   new Article ({
     title: "The Wendigo",
     date: '20160822',
-    tags: ['games'],
+    tags: [],
     body: [
       new Block ({
         text: "I wanted to make a text-adventure game building system that was straightforward and adaptable enough that when I finally get around to making one I'll have all the heavy mechanical lifting already done. This one includes traveling logic, stats, inventory, and a turn-based combat system."
