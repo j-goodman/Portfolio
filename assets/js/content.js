@@ -68,7 +68,7 @@ var contentList = [
         caption: "An in-progress text adventure game.",
       }),
       new Block ({
-        text: "From a development philosophy perspective, my goal here was to take Javascript objects as literally as possible -- for instance, when the user picks up an object from their environment, the object where that item's data is stored is moved from being recorded in the room object to being kept in the player's inventory object, as you might intuitively expect. The object system is my favorite feature of Javascript, so it was a lot of fun to play around with it in getting this to work."
+        text: "From a development philosophy perspective, my goal here was to take Javascript objects as literally as possible -- for instance, when the user picks up an object from their environment, the object where that item's data is stored is moved from being recorded in the room object to being kept in the player's inventory object, as you might intuitively expect. Unfortunately the 'progress' lately is more theoretically than practical on this project."
       }),
     ]
   }),
