@@ -41,7 +41,7 @@ var contentList = [
     tags: [],
     body: [
       new Block ({
-        text: "The idea for this one is to be sort of a petri dish simulator. Each of the individual cells follows a basic set of rules, based on a thirteen character 'DNA string' that sets values like their size, speed, and number of offspring. The autotrophs grow naturally and split when they reach a certain radius, while the heterotrophs move around in search of prey and avoid predators."
+        text: "The idea for this one is to be sort of a petri dish simulator -- I took some inspiration on it from Conway's Game of <a href='https://en.wikipedia.org/wiki/Cellular_automaton'>Life</a>. Each of the individual cells follows a basic set of rules, based on a thirteen character 'DNA string' that sets values like their size, speed, and number of offspring. The autotrophs grow naturally and split when they reach a certain radius, while the heterotrophs move around in search of prey and to avoid predators."
       }),
       new Picture ({
         filename: 'germs.png',
@@ -49,7 +49,7 @@ var contentList = [
         caption: "A digital petri dish that lets you set up and observe the processes of ecological competition and natural selection.",
       }),
       new Block ({
-        text: "When the germs split, they replicate their DNA string and pass it on to their offspring. In order to imitate the process of mutation, this replication is imperfect, and sometimes results in random errors. A good starting setup is to put in 20-100 autotrophs and 1-10 herbivores and carnivores."
+        text: "When a cell overlaps with another cell that's lower on the food chain, it absorbs that cell's size into its own. When it reaches its splitting radius, the germ splits. It replicates its DNA string and passes it on to its offspring. This replication process is imperfect, and sometimes results in random errors. A good starting setup is to put in 20-100 autotrophs and 1-10 herbivores and carnivores."
       }),
     ]
   }),
