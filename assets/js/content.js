@@ -49,7 +49,7 @@ var contentList = [
         caption: "A digital petri dish that lets you set up and observe the processes of ecological competition and natural selection.",
       }),
       new Block ({
-        text: "When a cell overlaps with another cell that's lower on the food chain, it absorbs that cell's size into its own. When it reaches its splitting radius, the germ splits. It replicates its DNA string and passes it on to its offspring. This replication process is imperfect, and sometimes results in random errors. A good starting setup is to put in 20-100 autotrophs and 1-10 herbivores and carnivores."
+        text: "When a cell overlaps with another cell that's lower on the food chain, it absorbs that cell's size into its own. When it reaches its splitting radius, the germ splits. It replicates its DNA string and passes it on to its offspring. This replication process is deliberately imperfect so that it sometimes results in random errors, or mutations. A good starting setup is to put in 20-100 autotrophs and 1-10 herbivores and carnivores."
       }),
     ]
   }),
