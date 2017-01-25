@@ -174,7 +174,7 @@ var contentList = [
     tags: ['about'],
     body: [
       new Picture ({
-        filename: 'abolbridge.jpeg',
+        filename: 'headshot.jpg',
         caption: "Hi, I'm John Goodman, this is my personal site. You can look me up on <a href='https://github.com/j-goodman/DOMquixote' target='_blank'>Github</a> or just browse around here to see what I'm working on.",
       }),
       new Block ({
