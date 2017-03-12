@@ -45,7 +45,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'germs.png',
-        link: 'http://www.abolbridge.com/germs2/',
+        link: 'http://www.johngoodman.io/germs2/',
         caption: "A digital petri dish that lets you set up and observe the processes of ecological competition and natural selection.",
       }),
       new Block ({
@@ -64,7 +64,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'thewendigo.png',
-        link: 'http://www.abolbridge.com/wendigo/',
+        link: 'http://www.johngoodman.io/wendigo/',
         caption: "An in-progress text adventure game.",
       }),
       new Block ({
@@ -83,7 +83,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'shooterdemo.png',
-        link: 'http://www.abolbridge.com/demo/',
+        link: 'http://www.johngoodman.io/demo/',
         caption: "Conceptual demo for a 2-D gameplay third person shooter.",
       }),
     ]
@@ -95,11 +95,11 @@ var contentList = [
     tags: ['games'],
     body: [
       new Block ({
-        text: "After cutting my teeth with Luna 3 I still had a few weeks of unemployment ahead of me so I figured I'd take some time to build another game. Had a lot of fun designing the controls and the combat mechanics, as well as creating the various enemies you fight in the game. Unfortunately never made it past level 2, but still hope to return to this one someday, I'm really happy with how the sprites and backgrounds ended up coming out. <a href='https://github.com/j-goodman/Luna3' target='_blank'>The source code is available</a> on my Github for anyone who's interested, or you can <a href='http://www.abolbridge.com/MoreTunnels/'>play it here</a>."
+        text: "After cutting my teeth with Luna 3 I still had a few weeks of unemployment ahead of me so I figured I'd take some time to build another game. Had a lot of fun designing the controls and the combat mechanics, as well as creating the various enemies you fight in the game. Unfortunately never made it past level 2, but still hope to return to this one someday, I'm really happy with how the sprites and backgrounds ended up coming out. <a href='https://github.com/j-goodman/Luna3' target='_blank'>The source code is available</a> on my Github for anyone who's interested, or you can <a href='http://www.johngoodman.io/MoreTunnels/'>play it here</a>."
       }),
       new Picture ({
         filename: 'moretunnels.png',
-        link: 'http://www.abolbridge.com/MoreTunnels/',
+        link: 'http://www.johngoodman.io/MoreTunnels/',
         caption: "Demo version of a browser based platform game, built from scratch with Javascript and HTML Canvas.",
       }),
     ]
@@ -115,7 +115,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'dice.png',
-        link: 'http://www.abolbridge.com/dice/',
+        link: 'http://www.johngoodman.io/dice/',
         caption: "Simple dice game built with basic HTML and vanilla Javascript. About 160 lines of code.",
       }),
     ]
@@ -131,7 +131,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'luna3.png',
-        link: 'http://www.abolbridge.com/Luna3/',
+        link: 'http://www.johngoodman.io/Luna3/',
         caption: "Luna 3 is a missile-defense browser game made with HTML Canvas and Javascript. Try the bolo rocket!",
       }),
     ]
@@ -169,16 +169,16 @@ var contentList = [
   }),
 
   new Article ({
-    title: "Abol Bridge",
+    title: "About Me",
     date: '20160501',
     tags: ['about'],
     body: [
       new Picture ({
-        filename: 'abolbridge.jpeg',
+        filename: 'headshot.jpg',
         caption: "Hi, I'm John Goodman, this is my personal site. You can look me up on <a href='https://github.com/j-goodman/DOMquixote' target='_blank'>Github</a> or just browse around here to see what I'm working on.",
       }),
       new Block ({
-        text: "I'm a full-stack web developer specializing in Javascript, Ruby on Rails, and Angular.js, living in Brooklyn and working in Manhattan. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. You can contact me at johncurtisgoodman@gmail.com"
+        text: "I'm a full-stack web developer specializing in Javascript, Ruby on Rails, and Angular.js, living in Brooklyn and working in Manhattan at <a href='http://joystickinteractive.com/' target='_blank'>Joystick Interactive</a>, a digital production agency. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. You can contact me at johncurtisgoodman@gmail.com"
       }),
     ]
   }),
