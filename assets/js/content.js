@@ -36,6 +36,38 @@ var contentList = [
   // }),
 
   new Article ({
+    title: "3D Cube Demo",
+    date: '20170311',
+    tags: [],
+    body: [
+      new Block ({
+        text: "A demo of the 3-D Transform functionality of HTML/CSS, integrated with Javascript to allow the user to freely spin the simulated cube using their W E D X Z and A keys."
+      }),
+      new Picture ({
+        filename: 'cube.png',
+        link: 'http://www.johngoodman.io/3D-cbe-demo/',
+        caption: "Use your keyboard to spin the cube.",
+      }),
+    ]
+  }),
+
+  new Article ({
+    title: "Typewriter",
+    date: '20170204',
+    tags: [],
+    body: [
+      new Block ({
+        text: "A functional typewriter simulator built to work on the Chrome browser -- (Safari and Firefox versions upcoming). Allows the user to type documents in the aesthetic style of a type-bar typewriter with a whiteout key, and download their pages immediately as a PDF."
+      }),
+      new Picture ({
+        filename: 'typewriter.png',
+        link: 'http://www.johngoodman.io/typewriter/',
+        caption: "Type up documents that look like sheets from a typewriter and download as a PDF.",
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "Germs",
     date: '20161118',
     tags: [],
