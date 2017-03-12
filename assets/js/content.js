@@ -45,7 +45,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'cube.png',
-        link: 'http://www.johngoodman.io/3D-cbe-demo/',
+        link: 'http://www.johngoodman.io/3D-cube-demo/',
         caption: "Use your keyboard to spin the cube.",
       }),
     ]
