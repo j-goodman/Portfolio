@@ -57,7 +57,7 @@ var contentList = [
     tags: [],
     body: [
       new Block ({
-        text: "A typewriter simulator built to work on the Chrome browser -- (Safari and Firefox versions upcoming). Allows the user to type documents in the aesthetic style of a type-bar typewriter with a whiteout key (Delete or _), and download their pages immediately as a PDF."
+        text: "A typewriter simulator built to work in Chrome or Firefox. Allows the user to type documents in the aesthetic style of a type-bar typewriter with a whiteout key (Delete or _), and download their pages immediately as a PDF."
       }),
       new Picture ({
         filename: 'typewriter.png',
