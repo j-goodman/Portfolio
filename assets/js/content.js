@@ -36,6 +36,22 @@ var contentList = [
   // }),
 
   new Article ({
+    title: "Typewriter",
+    date: '20170204',
+    tags: [],
+    body: [
+      new Block ({
+        text: "A typewriter simulator built to work in Chrome or Firefox. Allows the user to type documents in the aesthetic style of a type-bar typewriter with a whiteout key (Delete or _), and download their pages immediately as a PDF."
+      }),
+      new Picture ({
+        filename: 'typewriter.png',
+        link: 'http://www.johngoodman.io/typewriter/',
+        caption: "Type up documents that look like sheets from a typewriter and download as a PDF.",
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "3D Cube Demo",
     date: '20170311',
     tags: [],
@@ -52,17 +68,20 @@ var contentList = [
   }),
 
   new Article ({
-    title: "Typewriter",
-    date: '20170204',
+    title: "Mayanum",
+    date: '20170104',
     tags: [],
     body: [
       new Block ({
-        text: "A typewriter simulator built to work in Chrome or Firefox. Allows the user to type documents in the aesthetic style of a type-bar typewriter with a whiteout key (Delete or _), and download their pages immediately as a PDF."
+        text: "A simple frontend app to convert numbers from standard base-10 Arabic numerals into base-20 Maya numerals."
       }),
       new Picture ({
-        filename: 'typewriter.png',
-        link: 'http://www.johngoodman.io/typewriter/',
-        caption: "Type up documents that look like sheets from a typewriter and download as a PDF.",
+        filename: 'mayanum.png',
+        link: 'http://www.johngoodman.io/mayanum/',
+        caption: "Convert standard numbers to Maya numerals.",
+      }),
+      new Block ({
+        text: "This one's a really fascinating number system -- worlds better than Greek or Roman numerals -- so I definitely recommend reading up on them. As a system it's just as friendly for advanced math as the Hindu-Arabic system. Also it has a very elegant solution to the problem of base-20 number systems needing an unwieldy number of symbols: each digit's symbol can be further broken down into smaller units. The <a href='https://en.wikipedia.org/wiki/Maya_numerals'>wikipedia page</a> gives a pretty robust explanation of exactly how they work, always a good place to start."
       }),
     ]
   }),
