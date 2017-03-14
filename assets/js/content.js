@@ -81,7 +81,7 @@ var contentList = [
         caption: "Convert standard numbers to Maya numerals.",
       }),
       new Block ({
-        text: "This one's a really fascinating number system -- worlds better than Greek or Roman numerals -- so I definitely recommend reading up on them. As a system it's just as friendly for advanced math as the Hindu-Arabic system. Also it has a very elegant solution to the problem of base-20 number systems needing an unwieldy number of symbols: each digit's symbol can be further broken down into smaller units. The <a href='https://en.wikipedia.org/wiki/Maya_numerals'>wikipedia page</a> gives a pretty robust explanation of exactly how they work, always a good place to start."
+        text: "This one's a really fascinating number system -- worlds better than Greek or Roman numerals -- so I definitely recommend reading up on it. As a system it's just as friendly for advanced math as the Hindu-Arabic system. Also it has a very elegant solution to the problem of base-20 number systems needing an unwieldy number of symbols: each digit's symbol can be further broken down into smaller units. The <a href='https://en.wikipedia.org/wiki/Maya_numerals'>wikipedia page</a> gives a pretty robust explanation of exactly how they work, always a good place to start."
       }),
     ]
   }),
