@@ -68,7 +68,7 @@ var contentList = [
   }),
 
   new Article ({
-    title: "Mayanum",
+    title: "Maya Numeral Converter",
     date: '20170104',
     tags: [],
     body: [
