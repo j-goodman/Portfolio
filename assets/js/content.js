@@ -229,7 +229,7 @@ var contentList = [
         caption: "Hi, I'm John Goodman, this is my personal site. You can look me up on <a href='https://github.com/j-goodman/DOMquixote' target='_blank'>Github</a> or just browse around here to see what I'm working on.",
       }),
       new Block ({
-        text: "I'm a full-stack web developer specializing in Javascript, Ruby on Rails, and Angular.js, living in Brooklyn and working in Manhattan at <a href='http://joystickinteractive.com/' target='_blank'>Joystick Interactive</a>, a digital production agency. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. You can contact me at johncurtisgoodman@gmail.com"
+        text: "I'm a full-stack web developer specializing in Javascript, Django, and Angular.js, living in Brooklyn and working in Manhattan at <a href='http://joystickinteractive.com/' target='_blank'>Joystick Interactive</a>, a digital production agency. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. You can contact me at johncurtisgoodman@gmail.com"
       }),
     ]
   }),
