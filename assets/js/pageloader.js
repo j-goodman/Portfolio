@@ -24,12 +24,16 @@ window.onload = function () {
     var title;
     about = document.getElementById('about');
     games = document.getElementById('games');
+    all = document.getElementById('all');
     title = document.getElementById('title');
     about.onclick = function () {
       loadPage('about');
     };
     games.onclick = function () {
       loadPage('games');
+    };
+    all.onclick = function () {
+      loadPage();
     };
     title.onclick = function () {
       loadPage();
