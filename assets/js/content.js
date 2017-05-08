@@ -36,17 +36,52 @@ var contentList = [
   // }),
 
   new Article ({
+    title: "Cannonfire",
+    date: '20170508',
+    tags: [],
+    body: [
+      new Block ({
+        text: "This one's a work in progress based on an idea I had after watching too much Ken Burns -- the goal for it is to be sort of <a href='https://en.wikipedia.org/wiki/The_Oregon_Trail_(video_game)'>Oregon Trail</a> meets <a href='https://en.wikipedia.org/wiki/Risk_(game)'>Risk</a>. You play as the commander of a single territory's troops, and can move freely around a map of western North America seeking out and battling other commanders and expanding your forces."
+      }),
+      new Picture ({
+        filename: 'cannonfire.png',
+        link: 'http://www.johngoodman.io/cannonfire/',
+        caption: "In-progress strategy game.",
+      }),
+    ]
+  }),
+
+  new Article ({
+    title: "Merchant Marine",
+    date: '20170424',
+    tags: ['games'],
+    body: [
+      new Block ({
+        text: "A simple commodity trading game built in 72 hours for the Ludum Dare game jam. Definitely something I'd like to come back to some day and add some features to -- as it stands it's a little bit bare. Currently though, you can travel between planets trying to increase your bottom line by buying and selling goods. Optimized to work best in Chrome."
+      }),
+      new Picture ({
+        filename: 'merchant-marine.png',
+        link: 'http://www.johngoodman.io/merchant-marine/',
+        caption: "Submission for the 2017 Ludum Dare 3-Day Game Jam",
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "Typewriter",
     date: '20170204',
     tags: [],
     body: [
       new Block ({
-        text: "A typewriter simulator built to work in Chrome or Firefox. Allows the user to type documents in the aesthetic style of a type-bar typewriter with a whiteout key (Delete or _), and download their pages immediately as a PDF."
+        text: "A typewriter simulator built to work in Chrome and Firefox. Allows the user to type documents in the aesthetic style of a type-bar typewriter with a whiteout key (Delete or _), and download their pages immediately as a PDF."
       }),
       new Picture ({
         filename: 'typewriter.png',
         link: 'http://www.johngoodman.io/typewriter/',
         caption: "Type up documents that look like sheets from a typewriter and download as a PDF.",
+      }),
+      new Block ({
+        text: "This project came out of wanting a program for my own use that would let me write in stream-of-consciousness style without being able to edit what I'd written -- I find that having unlimited editing power can really make me overthink my writing. Eventually I did have to compromise that vision a little bit and add in the whiteout key; it can get pretty annoying to not even be able to correct typos."
       }),
     ]
   }),
