@@ -92,7 +92,7 @@ var contentList = [
     tags: [],
     body: [
       new Block ({
-        text: "A dynamic data visualizer that lets the user upload CSVs to render data as a dynamic graph. Right now the only feature is dynamic bar graphs where the user can slide a timeline forward and back, but in the future I'd like to include other kinds of data representations as well."
+        text: "A dynamic data visualizer that lets the user upload CSVs to render data as a dynamic graph. Right now the only feature is dynamic bar graphs where the user can slide a timeline forward and back, but in the future I'd like to include other kinds of data representations as well. Obviously first on the to-do list for this one though is to actually quantify the bar graph so it could be usable as an iframed in element."
       }),
       new Picture ({
         filename: 'graphoid.png',
