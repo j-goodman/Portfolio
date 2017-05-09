@@ -69,7 +69,7 @@ var contentList = [
 
   new Article ({
     title: "Typewriter",
-    date: '20170204',
+    date: '20170304',
     tags: [],
     body: [
       new Block ({
@@ -82,6 +82,22 @@ var contentList = [
       }),
       new Block ({
         text: "This project came out of wanting a program for my own use that would let me write in stream-of-consciousness style without being able to edit what I'd written -- I find that having unlimited editing power can really make me overthink my writing. Eventually I did have to compromise that vision a little bit and add in the whiteout key; it can get pretty annoying to not even be able to correct typos."
+      }),
+    ]
+  }),
+
+  new Article ({
+    title: "Graphoid",
+    date: '20170224',
+    tags: [],
+    body: [
+      new Block ({
+        text: "A dynamic data visualizer that lets the user upload CSVs to render data as a dynamic graph. Right now the only feature is dynamic bar graphs where the user can slide a timeline forward and back, but in the future I'd like to include other kinds of data representations as well."
+      }),
+      new Picture ({
+        filename: 'graphoid.png',
+        link: 'http://www.johngoodman.io/graphoid/',
+        caption: "Upload a CSV to generate a dynamic timeline graph.",
       }),
     ]
   }),
