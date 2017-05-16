@@ -77,7 +77,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'starbird.png',
-        link: 'http://www.johngoodman.io/merchant-marine/',
+        link: 'http://www.johngoodman.io/starbird/',
         caption: "Mobile shooter game using tilt controls.",
       }),
     ]
