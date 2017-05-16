@@ -38,7 +38,7 @@ var contentList = [
   new Article ({
     title: "Cannonfire",
     date: '20170508',
-    tags: [],
+    tags: ['games'],
     body: [
       new Block ({
         text: "This one's a work in progress based on an idea I had after watching too much Ken Burns -- the goal for it is to be sort of <a href='https://en.wikipedia.org/wiki/The_Oregon_Trail_(video_game)'>Oregon Trail</a> meets <a href='https://en.wikipedia.org/wiki/Risk_(game)'>Risk</a>. You play as the commander of a single territory's troops, and can move freely around a map of western North America seeking out and battling other commanders and expanding your forces."
@@ -87,9 +87,25 @@ var contentList = [
   }),
 
   new Article ({
+    title: "Starbird",
+    date: '20170321',
+    tags: ['games'],
+    body: [
+      new Block ({
+        text: "You can play this one on desktop but it's mostly designed for mobile -- you can open it on your phone's browser to play using tilt controls. Gets a lot harder once you hit 100 points."
+      }),
+      new Picture ({
+        filename: 'starbird.png',
+        link: 'http://www.johngoodman.io/starbird/',
+        caption: "Mobile shooter game using tilt controls.",
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "Typewriter",
     date: '20170304',
-    tags: [],
+    tags: ['tools'],
     body: [
       new Block ({
         text: "A typewriter simulator built to work in Chrome and Firefox. Allows the user to type documents in the aesthetic style of a type-bar typewriter with a whiteout key (Delete or _), and download their pages immediately as a PDF."
@@ -124,7 +140,7 @@ var contentList = [
   new Article ({
     title: "Graphoid",
     date: '20170224',
-    tags: [],
+    tags: ['tools'],
     body: [
       new Block ({
         text: "A dynamic data visualizer that lets the user upload CSVs to render data as a dynamic graph. Right now the only feature is dynamic bar graphs where the user can slide a timeline forward and back, but in the future I'd like to include other kinds of data representations as well. Obviously first on the to-do list for this one though is to actually quantify the bar graph so it could be usable as an iframed in element."
@@ -156,7 +172,7 @@ var contentList = [
   new Article ({
     title: "Maya Numeral Converter",
     date: '20170104',
-    tags: [],
+    tags: ['tools'],
     body: [
       new Block ({
         text: "A simple frontend app to convert numbers from standard base-10 Arabic numerals into base-20 Maya numerals."
@@ -293,7 +309,7 @@ var contentList = [
   new Article ({
     title: "DOMquixote",
     date: '20160507',
-    tags: [],
+    tags: ['tools'],
     body: [
       new Block ({
         text: "This up in here as an example of the kind of projects I worked on as part of the AppAcademy curriculum. The assignment on that day was to create a DOM editor, intended to be a lightweight version of JQuery. It doesn't handle AJAX requests, but its basic functionality does work. Looking back though it's just interesting to recall how little I understood what I was building as was able to figure it out well enough to build it. <a href='https://github.com/j-goodman/DOMquixote' target='_blank'>You can check it out here if you're curious</a>. Needed a lot of help from the other student I was partnered with that day. Thanks Adriana."
