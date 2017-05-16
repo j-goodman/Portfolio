@@ -52,6 +52,25 @@ var contentList = [
   }),
 
   new Article ({
+    title: "Hooli",
+    date: '20170501',
+    tags: [],
+    body: [
+      new Block ({
+        text: "The official hooli.com for HBO's Silicon Valley. Built to update with the release of the third episode of Season 4 and give fans some more details about some of that episode's plot points."
+      }),
+      new Picture ({
+        filename: 'hooli.png',
+        link: 'http://www.hooli.com',
+        caption: "Static site for HBO's Silicon Valley.",
+      }),
+      new Block ({
+        text: "For the benefit of non-viewers, Hooli is sort of the show's generic Google-type giant sinister tech corporation. Was given a lot of freedom to go wild with the animations on this one, and I was also tasked with building the mobile version of the design from scratch."
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "Merchant Marine",
     date: '20170424',
     tags: ['games'],
@@ -82,6 +101,22 @@ var contentList = [
       }),
       new Block ({
         text: "This project came out of wanting a program for my own use that would let me write in stream-of-consciousness style without being able to edit what I'd written -- I find that having unlimited editing power can really make me overthink my writing. Eventually I did have to compromise that vision a little bit and add in the whiteout key; it can get pretty annoying to not even be able to correct typos."
+      }),
+    ]
+  }),
+
+  new Article ({
+    title: "Google EDU Transformation Center",
+    date: '20170304',
+    tags: [],
+    body: [
+      new Block ({
+        text: "A web app built for the Google Education team with a full backend CMS and custom search system. Lets school administrators upload ideas about what has and hasn't worked for them when it comes to using Google technology for education."
+      }),
+      new Picture ({
+        filename: 'transformation.png',
+        link: 'https://edutransformationcenter.withgoogle.com/',
+        caption: "Full stack webapp for the Google Education team.",
       }),
     ]
   }),
