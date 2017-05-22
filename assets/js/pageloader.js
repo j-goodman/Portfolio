@@ -55,6 +55,15 @@ window.onload = function () {
     return string;
   };
 
+  addAnalyticsEvent = function () {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'content',
+      eventAction: 'navigate',
+      eventLabel: this,
+    });
+  };
+
   loadArticle = function (article) {
     var el;
     var title;
@@ -83,6 +92,7 @@ window.onload = function () {
           break;
         case 'picture':
           subEl = document.createElement('a');
+          subEl.onclick = addAnalyticsEvent.bind(article.title);
           if (section.link) {
             subEl.href = section.link;
             subEl.target = '_blank';
