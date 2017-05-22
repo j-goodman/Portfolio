@@ -46,7 +46,7 @@ var contentList = [
       new Picture ({
         filename: 'cannonfire.png',
         link: 'http://www.johngoodman.io/cannonfire/',
-        caption: "In-progress strategy game.",
+        caption: "Turn-based strategy game.",
       }),
     ]
   }),
