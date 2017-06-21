@@ -31,7 +31,7 @@ window.onload = function () {
       loadPage('about');
     };
     games.onclick = function () {
-      loadPage('games');
+      window.location = 'games';
     };
     tools.onclick = function () {
       loadPage('tools');
