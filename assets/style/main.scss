@@ -5,31 +5,59 @@ html, body, section, div, span, iframe, h1, h2, h3, h4, h5, h6, p, img, ol, ul, 
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
-	vertical-align: baseline;
+}
+
+html, body {
+	height: 100%;
+	padding: 0;
 }
 
 body {
-	background: #fcfbfc;
+	background: #1B1725;
   display: flex;
   flex-direction: row;
 	font-family: 'Source Sans Pro', sans-serif;
-	padding-top: 32px;
-	height: 100%;
 }
 
 .left-side {
-	background: #0f0;
-	height: 100%;
-	width: 70%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 65%;
 	.story-panel {
-		height: 92%;
-		width: 72%;
+		align-items: center;
+		background: #A499B3;
+		display: flex;
+		flex-direction: column;
+		height: 86%;
+		justify-content: center;
+		width: 92%;
 		.image-container {
-			height: 94%;
+			height: 62%;
 			width: 94%;
-			img {
+			.image {
+				background: #000;
 				height: 100%;
 				width: 100%;
+			}
+		}
+		.text-panels {
+			display: flex;
+			flex-direction: row;
+			height: 32%;
+			justify-content: center;
+			width: 100%;
+			.title-panel, .description-panel {
+				background: #534B62;
+				height: 90%;
+				margin-top: 10%;
+			}
+			.title-panel {
+				width: 37%;
+			}
+			.description-panel {
+				width: 57%;
 			}
 		}
 	}
@@ -38,5 +66,5 @@ body {
 .right-side {
 	background: #f00;
 	height: 100%;
-	width: 30%;
+	width: 35%;
 }

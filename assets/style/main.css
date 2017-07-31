@@ -3,34 +3,57 @@ html, body, section, div, span, iframe, h1, h2, h3, h4, h5, h6, p, img, ol, ul, 
   border: 0;
   font-size: 100%;
   margin: 0;
-  padding: 0;
-  vertical-align: baseline; }
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  padding: 0; }
 
 body {
-  background: #fcfbfc;
+  background: #1B1725;
   display: flex;
   flex-direction: row;
-  font-family: 'Source Sans Pro', sans-serif;
-  padding-top: 32px;
-  height: 100%; }
+  font-family: 'Source Sans Pro', sans-serif; }
 
 .left-side {
-  background: #0f0;
-  height: 100%;
-  width: 70%; }
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%; }
   .left-side .story-panel {
-    height: 92%;
-    width: 72%; }
+    align-items: center;
+    background: #A499B3;
+    display: flex;
+    flex-direction: column;
+    height: 86%;
+    justify-content: center;
+    width: 92%; }
     .left-side .story-panel .image-container {
-      height: 94%;
+      height: 62%;
       width: 94%; }
-      .left-side .story-panel .image-container img {
+      .left-side .story-panel .image-container .image {
+        background: #000;
         height: 100%;
         width: 100%; }
+    .left-side .story-panel .text-panels {
+      display: flex;
+      flex-direction: row;
+      height: 32%;
+      justify-content: center;
+      width: 100%; }
+      .left-side .story-panel .text-panels .title-panel, .left-side .story-panel .text-panels .description-panel {
+        background: #534B62;
+        height: 90%;
+        margin-top: 10%; }
+      .left-side .story-panel .text-panels .title-panel {
+        width: 37%; }
+      .left-side .story-panel .text-panels .description-panel {
+        width: 57%; }
 
 .right-side {
   background: #f00;
   height: 100%;
-  width: 30%; }
+  width: 35%; }
 
 /*# sourceMappingURL=main.css.map */
