@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
 html, body, section, div, span, iframe, h1, h2, h3, h4, h5, h6, p, img, ol, ul, li,{
 	border: 0;
 	font-size: 100%;
@@ -16,7 +14,7 @@ body {
 	background: #1B1725;
   display: flex;
   flex-direction: row;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Monda', sans-serif;
 }
 
 .left-side {
@@ -35,6 +33,7 @@ body {
 		justify-content: center;
 		width: 92%;
 		.image-container {
+			cursor: pointer;
 			height: 60%;
 			position: relative;
 			width: 90%;
@@ -69,7 +68,6 @@ body {
 				color: #D0BCD5;
 				height: 76%;
 				margin-top: 10%;
-				overflow: hidden;
 				padding: 9% 3% 9% 3%;
 				a {
 					color: #226CE0;
@@ -81,14 +79,22 @@ body {
 			}
 			.title-panel {
 				background-image: url('../block-elements/text-panel-2.png');
-				line-height: 300%;
+				font-family: 'Amatic SC', sans-serif;
+				font-weight: 700;
+				line-height: 120%;
+				overflow: visible;
 				text-align: center;
-				font-size: 36px;
+				font-size: 42px;
 				width: 26%;
+				a {
+					color: #1B1725;
+				}
 			}
 			.description-panel {
 				background-image: url('../block-elements/text-panel-1.png');
-				width: 46%;
+				line-height: 120%;
+				overflow: hidden;
+				width: 56%;
 			}
 		}
 	}
