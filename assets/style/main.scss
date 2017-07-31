@@ -27,37 +27,55 @@ body {
 	width: 65%;
 	.story-panel {
 		align-items: center;
-		background: #A499B3;
+		background-image: url('../block-elements/main-block.png');
+		background-size: 100% 100%;
 		display: flex;
 		flex-direction: column;
-		height: 86%;
+		height: 90%;
 		justify-content: center;
 		width: 92%;
 		.image-container {
-			height: 62%;
-			width: 94%;
-			.image {
-				background: #000;
+			height: 60%;
+			position: relative;
+			width: 90%;
+			.image-frame {
+				background-image: url('../block-elements/image-frame.png');
+				background-size: 100% 100%;
+				position: absolute;
+				top: 0;
 				height: 100%;
 				width: 100%;
+			}
+			.image {
+				background: #000;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 100% auto;
+				height: 96.7%;
+				left: 3px;
+				position: absolute;
+				top: 5px;
+				width: 98.5%;
 			}
 		}
 		.text-panels {
 			display: flex;
 			flex-direction: row;
-			height: 32%;
-			justify-content: center;
-			width: 100%;
+			height: 30%;
+			justify-content: space-around;
+			width: 96%;
 			.title-panel, .description-panel {
-				background: #534B62;
+				background-size: 100% 100%;
 				height: 90%;
 				margin-top: 10%;
 			}
 			.title-panel {
-				width: 37%;
+				background-image: url('../block-elements/text-panel-2.png');
+				width: 34%;
 			}
 			.description-panel {
-				width: 57%;
+				background-image: url('../block-elements/text-panel-1.png');
+				width: 54%;
 			}
 		}
 	}
@@ -67,4 +85,8 @@ body {
 	background: #f00;
 	height: 100%;
 	width: 35%;
+}
+
+#fox {
+	background-image: url('../images/fox.jpg');
 }
