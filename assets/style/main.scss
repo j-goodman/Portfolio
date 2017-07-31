@@ -66,16 +66,29 @@ body {
 			width: 96%;
 			.title-panel, .description-panel {
 				background-size: 100% 100%;
-				height: 90%;
+				color: #D0BCD5;
+				height: 76%;
 				margin-top: 10%;
+				overflow: hidden;
+				padding: 9% 3% 9% 3%;
+				a {
+					color: #226CE0;
+					text-decoration: none;
+				}
+				a:hover {
+					color: #D24CC0
+				}
 			}
 			.title-panel {
 				background-image: url('../block-elements/text-panel-2.png');
-				width: 34%;
+				line-height: 300%;
+				text-align: center;
+				font-size: 36px;
+				width: 26%;
 			}
 			.description-panel {
 				background-image: url('../block-elements/text-panel-1.png');
-				width: 54%;
+				width: 46%;
 			}
 		}
 	}
