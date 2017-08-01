@@ -43,7 +43,7 @@ var contentList = [
   new Article ({
     title: "Hooli",
     date: '20170501',
-    tags: [],
+    tags: ['sites'],
     blurb: "The official hooli.com for HBO's Silicon Valley. Built to update with the release of the third episode of Season 4 and give fans some more details about some of that episode's plot points. For the benefit of non-viewers, Hooli is sort of the show's generic Google-type giant sinister tech corporation. Was given a lot of freedom to go wild with the animations on this one, and I was also tasked with building the mobile version of the design from scratch.",
     imageId: 'hooli',
     link: 'http://www.hooli.com',
@@ -61,7 +61,7 @@ var contentList = [
   new Article ({
     title: "Google EDU Transformation Center",
     date: '20170304',
-    tags: [],
+    tags: ['sites'],
     blurb: "A web app built for the Google Education team with a full backend CMS and custom search system. Lets school administrators upload ideas about what has and hasn't worked for them when it comes to using Google technology for education.",
     imageId: 'google-transformation',
     link: 'https://edutransformationcenter.withgoogle.com/',
@@ -97,7 +97,7 @@ var contentList = [
   new Article ({
     title: "3D Cube Demo",
     date: '20170311',
-    tags: [],
+    tags: ['sites'],
     blurb: "A demo of the 3-D Transform functionality of HTML/CSS, integrated with Javascript to allow the user to freely spin the simulated cube using their W E D X Z and A keys. Use the spacebar to roll the dice.",
     imageId: 'cube-demo',
     link: 'http://www.johngoodman.io/3D-cube-demo/',
@@ -169,10 +169,10 @@ var contentList = [
   new Article ({
     title: "Cloudcast",
     date: '20160520',
-    tags: [],
+    tags: ['sites'],
     blurb: "This was my final project when I was studying at AppAcademy in New York. It's built on Ruby on Rails, using React-Flux for the frontend. It wasn't the most challenging of the features I had to implement here, but probably the one I'm most happy with is that orange-white-and-blue audio slider you can see under each track: give it a slide.",
     imageId: 'cloudcast',
-    link: 'http://www.cloudcast.space/',
+    link: 'http://cloud-cast.herokuapp.com/',
   }),
 
   new Article ({

@@ -33,12 +33,16 @@ mainPageOnload = function () {
     var about;
     var title;
     about = document.getElementById('about-trigger');
-    all = document.getElementById('updates-trigger');
+    games = document.getElementById('games-trigger');
+    sites = document.getElementById('updates-trigger');
     about.onclick = function () {
       loadPage('about');
     };
-    all.onclick = function () {
-      loadPage();
+    games.onclick = function () {
+      loadPage('games');
+    };
+    sites.onclick = function () {
+      loadPage('sites');
     };
   };
 
@@ -78,6 +82,9 @@ mainPageOnload = function () {
     el.imageFrame.className = 'image-frame';
     el.imageContainer.appendChild(el.image);
     el.imageContainer.appendChild(el.imageFrame);
+    el.imageContainer.onclick = function () {
+      window.location = article.link;
+    };
 
     el.textPanels = document.createElement('section');
     el.textPanels.className = 'text-panels';
