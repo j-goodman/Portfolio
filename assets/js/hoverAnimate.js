@@ -13,7 +13,6 @@ function Animatic (element, frameCount) {
 
 Animatic.prototype.refresh = function () {
   this.element.style.backgroundImage = "url('assets/animatics/" + this.frameDirectory + "/" + this.frame + ".png')";
-  console.log("url('assets/animatics/" + this.frameDirectory + "/" + this.frame + ".png')");
 };
 
 Animatic.prototype.ascend = function () {
@@ -43,6 +42,7 @@ Animatic.prototype.descend = function () {
 function collectAnimatics () {
   var animatics;
   var i;
+  mainPageOnload();
   animatics = document.getElementsByTagName('animatic');
   for (i=0 ; i<animatics.length ; i++) {
     animaticIndex[animatics[i].id] = new Animatic (animatics[i]);
