@@ -114,11 +114,33 @@ body {
 		cursor: pointer;
 		font-family: 'Amatic SC', sans-serif;
 		font-size: 60px;
+		font-weight: 700;
 		height: 28%;
 		letter-spacing: 6px;
 		line-height: 140px;
+		position: relative;
 		text-align: center;
+		text-shadow: 0px 0px 3px #1B1725;
 		width: 84%;
+		.icon-title {
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+		animatic {
+			height: 100%;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+		.trigger {
+			height: 100%;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 2;
+		}
 	}
 	.games {
 		background-image: url('../block-elements/icon-block-1.png');
@@ -131,6 +153,30 @@ body {
 	}
 }
 
+animatic {
+	background-repeat: no-repeat;
+	display: block;
+	opacity: .8;
+}
+
 #fox {
-	background-image: url('../images/fox.jpg');
+	background-image: url('../images/robotopia.png');
+}
+
+#games {
+	background-image: url('../animatics/games/0.png');
+	background-size: 200px 140px;
+	background-position: 50px 6px;
+}
+
+#about {
+	background-image: url('../animatics/about/0.png');
+	background-size: 300px 100%;
+	background-position: 30px -2px;
+}
+
+#updates {
+	background-image: url('../animatics/updates/0.png');
+	background-size: 300px 100%;
+	background-position: 40px -2px;
 }
