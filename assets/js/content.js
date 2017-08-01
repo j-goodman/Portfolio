@@ -23,6 +23,15 @@ var Block = function (inp) {
 var contentList = [
 
   new Article ({
+    title: "Robotopia",
+    date: '20170623',
+    tags: ['games'],
+    blurb: "You play as an advanced AI that's been banished to the frozen north. One of things I'm most satisfied about with this one is the sound design, but I also feel like it plays much smoother than some of my earlier games. It's mostly a building simulator, but it's got some combat-type gameplay as well as you find yourself in competition for resources with the tundra's non-mechanical inhabitants.",
+    imageId: 'robotopia',
+    link: 'http://www.johngoodman.io/robotopia/',
+  }),
+
+  new Article ({
     title: "Cannonfire",
     date: '20170508',
     tags: ['games'],
@@ -50,6 +59,15 @@ var contentList = [
   }),
 
   new Article ({
+    title: "Google EDU Transformation Center",
+    date: '20170304',
+    tags: [],
+    blurb: "A web app built for the Google Education team with a full backend CMS and custom search system. Lets school administrators upload ideas about what has and hasn't worked for them when it comes to using Google technology for education.",
+    imageId: 'google-transformation',
+    link: 'https://edutransformationcenter.withgoogle.com/',
+  }),
+
+  new Article ({
     title: "Starbird",
     date: '20170321',
     tags: ['games'],
@@ -65,15 +83,6 @@ var contentList = [
     blurb: "A typewriter simulator built to work in Chrome and Firefox. Allows immediate download as a PDF. This project came out of wanting a program for my own use that would let me write in stream-of-consciousness style without being able to edit what I'd written -- I find that having unlimited editing power can really make me overthink my writing. Eventually I did have to compromise on that concept a little bit and add in the whiteout key; it can get pretty annoying to not even be able to correct typos.",
     imageId: 'typewriter',
     link: 'http://www.johngoodman.io/typewriter/',
-  }),
-
-  new Article ({
-    title: "Google EDU Transformation Center",
-    date: '20170304',
-    tags: [],
-    blurb: "A web app built for the Google Education team with a full backend CMS and custom search system. Lets school administrators upload ideas about what has and hasn't worked for them when it comes to using Google technology for education.",
-    imageId: 'google-transformation',
-    link: 'https://edutransformationcenter.withgoogle.com/',
   }),
 
   new Article ({
