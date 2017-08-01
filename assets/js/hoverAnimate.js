@@ -19,10 +19,10 @@ Animatic.prototype.refresh = function () {
 Animatic.prototype.ascend = function () {
   var timeoutFunction;
   function timeoutFunction () {
+    this.frame += 1;
     if (this.active && this.frame < this.frameCount) {
       this.refresh();
       setTimeout(timeoutFunction.bind(this), this.frameRate);
-      this.frame += 1;
     }
   }
   setTimeout(timeoutFunction.bind(this), this.frameRate);
@@ -31,10 +31,10 @@ Animatic.prototype.ascend = function () {
 Animatic.prototype.descend = function () {
   var timeoutFunction;
   function timeoutFunction () {
+    this.frame -= 1;
     if (!this.active && this.frame >= 0) {
       this.refresh();
       setTimeout(timeoutFunction.bind(this), this.frameRate);
-      this.frame -= 1;
     }
   }
   setTimeout(timeoutFunction.bind(this), this.frameRate);
