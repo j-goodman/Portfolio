@@ -5,6 +5,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1' />
     <script src='assets/js/content.js'></script>
     <script src='assets/js/pageloader.js'></script>
+    <script src='assets/js/hoverAnimate.js'></script>
     <link rel='stylesheet' href='assets/style/main.css' />
     <link rel='icon' type='image/ico' href='images/icon.ico' />
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Monda'>
@@ -26,12 +27,18 @@
     <section class='right-side'>
       <div class='icon games'>
         <div class='icon-title'>games</div>
+        <animatic id='games' data-frames=6></animatic>
+        <section id='games-trigger' class='trigger'></section>
       </div>
       <div class='icon about'>
         <div class='icon-title'>about</div>
+        <animatic id='about' data-frames=5></animatic>
+        <section id='about-trigger' class='trigger'></section>
       </div>
       <div class='icon updates'>
         <div class='icon-title'>updates</div>
+        <animatic id='updates' data-frames=8></animatic>
+        <section id='updates-trigger' class='trigger'></section>
       </div>
     </section>
   </body>
