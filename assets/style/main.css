@@ -56,6 +56,9 @@ body {
         top: 0;
         height: 100%;
         width: 100%; }
+        @media (max-width: 700px) {
+          .left-side .story-panel .image-container .image-frame {
+            display: none; } }
       .left-side .story-panel .image-container .image {
         background: #000;
         background-position: center;
@@ -82,9 +85,9 @@ body {
       .left-side .story-panel .text-panels .title-panel, .left-side .story-panel .text-panels .description-panel {
         background-size: 100% 100%;
         color: #D0BCD5;
-        height: 76%;
-        margin-top: 10%;
-        padding: 9% 3% 9% 3%; }
+        height: 48%;
+        margin-top: 1%;
+        padding: 3% 3% 9% 3%; }
         .left-side .story-panel .text-panels .title-panel a, .left-side .story-panel .text-panels .description-panel a {
           color: #226CE0;
           text-decoration: none; }

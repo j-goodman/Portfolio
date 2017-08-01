@@ -68,6 +68,11 @@ body {
 				top: 0;
 				height: 100%;
 				width: 100%;
+
+				@media (max-width: $breakpoint-mobile) {
+					display: none;
+				}
+
 			}
 			.image {
 				background: #000;
@@ -101,9 +106,9 @@ body {
 			.title-panel, .description-panel {
 				background-size: 100% 100%;
 				color: #D0BCD5;
-				height: 76%;
-				margin-top: 10%;
-				padding: 9% 3% 9% 3%;
+				height: 48%;
+				margin-top: 1%;
+				padding: 3% 3% 9% 3%;
 				a {
 					color: #226CE0;
 					text-decoration: none;
