@@ -1,3 +1,6 @@
+$breakpoint-tablet: 900px;
+$breakpoint-mobile: 700px;
+
 html, body, section, div, span, iframe, h1, h2, h3, h4, h5, h6, p, img, ol, ul, li,{
 	border: 0;
 	font-size: 100%;
@@ -27,21 +30,37 @@ body {
 	margin-top: 0;
 	overflow-y: scroll;
 	width: 65%;
+
+	@media (max-width: $breakpoint-tablet) {
+		width: 100%;
+	}
+
 	.story-panel {
 		align-items: center;
 		background-image: url('../block-elements/main-block.png');
 		background-size: 100% 100%;
+		direction: ltr;
 		display: flex;
 		flex-direction: column;
 		flex-shrink: 0;
 		height: 90%;
 		justify-content: center;
 		width: 92%;
+
+		@media (max-width: $breakpoint-tablet) {
+			height: 120%;
+		}
+
 		.image-container {
 			cursor: pointer;
 			height: 60%;
 			position: relative;
 			width: 90%;
+
+			@media (max-width: $breakpoint-tablet) {
+				height: 50%;
+			}
+
 			.image-frame {
 				background-image: url('../block-elements/image-frame.png');
 				background-size: 100% 100%;
@@ -60,6 +79,11 @@ body {
 				position: absolute;
 				top: 5px;
 				width: 98.5%;
+
+				@media (max-width: $breakpoint-tablet) {
+					background-size: auto 100%;
+				}
+
 			}
 		}
 		.text-panels {
@@ -68,6 +92,12 @@ body {
 			height: 30%;
 			justify-content: space-around;
 			width: 96%;
+
+			@media (max-width: $breakpoint-mobile) {
+				align-items: center;
+				flex-direction: column;
+			}
+
 			.title-panel, .description-panel {
 				background-size: 100% 100%;
 				color: #D0BCD5;
@@ -94,6 +124,10 @@ body {
 				a {
 					color: #1B1725;
 				}
+				@media (max-width: $breakpoint-mobile) {
+					background-image: none;
+					width: 100%;
+				}
 			}
 			.description-panel {
 				background-image: url('../block-elements/text-panel-1.png');
@@ -101,6 +135,12 @@ body {
 				line-height: 120%;
 				overflow: hidden;
 				width: 56%;
+				@media (max-width: $breakpoint-mobile) {
+					background-image: none;
+					color: #1B1725;
+					min-height: 70%;
+					width: 90%;
+				}
 			}
 		}
 	}
@@ -114,6 +154,11 @@ body {
 	margin-top: 4%;
 	justify-content: space-around;
 	width: 35%;
+
+	@media (max-width: $breakpoint-tablet) {
+		display: none;
+	}
+
 	.icon {
 		background-size: 100% 100%;
 		color: #D0BCD5;
