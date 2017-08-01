@@ -3,7 +3,9 @@ var Article = function (inp) {
   this.date = inp.date;
   this.tags = inp.tags;
   this.title = inp.title;
-  this.body = inp.body;
+  this.imageId = inp.imageId;
+  this.link = inp.link;
+  this.blurb = inp.blurb;
 };
 
 var Picture = function (inp) {
@@ -19,21 +21,6 @@ var Block = function (inp) {
 };
 
 var contentList = [
-
-  // new Article ({
-  //   title: "The Segment Title",
-  //   date: '04112016',
-  //   tags: [],
-  //   body: [
-  //     new Block ({
-  //       text: "Herein be the content. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Now is the winter of our discontent made glorious summer by this son of York, and all the clouds that lour'd upon our house in the deep bosom of the ocean buried. Grim visaged War hath smoothed his wrinkled front and now distinctly I remember it was in the bleak December, and each separate dying ember wrought its ghost upon the floor. Eagerly I wished the morrow, vainly I had sought to borrow from my books surcease of sorrow, sorrow for the lost Lenore.",
-  //     }),
-  //     new Picture ({
-  //       filename: 'fox.jpg',
-  //       caption: "Here's a quick summary of the article that relates to the image.",
-  //     }),
-  //   ]
-  // }),
 
   new Article ({
     title: "Cannonfire",
@@ -111,7 +98,7 @@ var contentList = [
     title: "Maya Numeral Converter",
     date: '20170104',
     tags: ['tools'],
-    blurb: "A simple frontend app to convert numbers from standard base-10 Arabic numerals into base-20 Maya numerals. It's a really fascinating number system -- worlds better than Greek or Roman numerals -- so I definitely recommend reading up on it. As a system it's just as friendly for advanced math as the Hindu-Arabic system. Also it has a very elegant solution to the problem of base-20 number systems needing an unwieldy number of symbols: each digit's symbol can be further broken down into smaller units. The <a href='https://en.wikipedia.org/wiki/Maya_numerals'>wikipedia page</a> gives a pretty robust explanation of exactly how they work, always a good place to start.",
+    blurb: "A simple frontend app to convert numbers from standard base-10 Arabic numerals into base-20 Maya numerals. It's a really fascinating number system -- worlds better than Greek or Roman numerals -- so I definitely recommend reading up on it. As a system it's just as friendly for advanced math as the Hindu-Arabic system. The <a href='https://en.wikipedia.org/wiki/Maya_numerals'>wikipedia page</a> gives a pretty robust explanation of exactly how it works, always a good place to start.",
     imageId: 'mayanum',
     link: 'http://www.johngoodman.io/mayanum/',
   }),
@@ -120,7 +107,7 @@ var contentList = [
     title: "Germs",
     date: '20161118',
     tags: [],
-    blurb: "The idea for this one is to be sort of a petri dish simulator -- I took some inspiration on it from Conway's Game of <a href='https://en.wikipedia.org/wiki/Cellular_automaton'>Life</a>. Each of the individual cells follows a basic set of rules, based on a thirteen character 'DNA string' that sets values like their size, speed, and number of offspring. The autotrophs grow naturally and split when they reach a certain radius, while the heterotrophs move around in search of prey and to avoid predators. When a cell overlaps with another cell that's lower on the food chain, it absorbs that cell's size into its own. When it reaches its splitting radius, the germ splits. It replicates its DNA string and passes it on to its offspring. This replication process is deliberately imperfect so that it sometimes results in random errors, or mutations. A good starting setup is to put in 20-100 autotrophs and 1-10 herbivores and carnivores.",
+    blurb: "The idea for this one is to be sort of a petri dish simulator -- I took some inspiration on it from Conway's Game of <a href='https://en.wikipedia.org/wiki/Cellular_automaton'>Life</a>. Each of the individual cells follows a basic set of rules, based on a thirteen character 'DNA string' that sets values like their size, speed, and number of offspring. When a cell overlaps with another cell that's lower on the food chain, it absorbs that cell's size into its own. Eventually it splits and replicates its DNA string. The replication process is imperfect so that it sometimes results in random errors, or mutations.",
     imageId: 'germs',
     link: 'http://www.johngoodman.io/germs2/',
   }),
@@ -129,7 +116,7 @@ var contentList = [
     title: "The Wendigo",
     date: '20160822',
     tags: [],
-    blurb: "I wanted to make a text-adventure game building system that was straightforward and adaptable enough that when I finally get around to making one I'll have all the heavy mechanical lifting already done. This one includes traveling logic, stats, inventory, and a turn-based combat system. From a development philosophy perspective, my goal here was to take Javascript objects as literally as possible -- for instance, when the user picks up an object from their environment, the object where that item's data is stored is moved from being recorded in the room object to being kept in the player's inventory object, as you might intuitively expect. Unfortunately the 'progress' lately is more theoretically than practical on this project.",
+    blurb: "I wanted to make a text-adventure game building system that was straightforward and adaptable enough that when I get around to making one I'll have all the heavy mechanical lifting already done. This one includes traveling logic, stats, inventory, and a turn-based combat system. From a development philosophy perspective, my goal here was to use Javascript objects as literally as possible -- when the user picks up an object from their environment, the object where that item's data is stored is moved from the room object to the player's inventory object, as you'd intuitively expect.",
     imageId: 'wendigo',
     link: 'http://www.johngoodman.io/wendigo/',
   }),
