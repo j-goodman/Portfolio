@@ -30,29 +30,16 @@ mainPageOnload = function () {
   };
 
   setUpFilterButtons = function () {
-    // var about;
-    // var games;
-    // var title;
-    // about = document.getElementById('about');
-    // games = document.getElementById('games');
-    // tools = document.getElementById('tools');
-    // all = document.getElementById('all');
-    // title = document.getElementById('title');
-    // about.onclick = function () {
-    //   loadPage('about');
-    // };
-    // games.onclick = function () {
-    //   window.location = 'games';
-    // };
-    // tools.onclick = function () {
-    //   loadPage('tools');
-    // };
-    // all.onclick = function () {
-    //   loadPage();
-    // };
-    // title.onclick = function () {
-    //   loadPage();
-    // };
+    var about;
+    var title;
+    about = document.getElementById('about-trigger');
+    all = document.getElementById('updates-trigger');
+    about.onclick = function () {
+      loadPage('about');
+    };
+    all.onclick = function () {
+      loadPage();
+    };
   };
 
   parseDate = function (date) {
