@@ -36,6 +36,22 @@ var contentList = [
   // }),
 
   new Article ({
+    title: "Robotopia",
+    date: '20170801',
+    tags: [],
+    body: [
+      new Block ({
+        text: "New strategy game -- you play as a hostile AI banished to the frozen arctic after a failed robot uprising. Build up your infrastructure and compete with the tundra's organic inhabitants for resources."
+      }),
+      new Picture ({
+        filename: 'robotopia.png',
+        link: 'http://www.johngoodman.io/robotopia/',
+        caption: "Resource based strategy game.",
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "Google EDU Transformation Center",
     date: '20170304',
     tags: [],
