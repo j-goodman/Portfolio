@@ -36,9 +36,25 @@ var contentList = [
   // }),
 
   new Article ({
+    title: "The House of Hades",
+    date: '20180513',
+    tags: [],
+    body: [
+      new Block ({
+        text: "A text-based adventure game where you explore the weird horrors of a procedurally generated mansion, collecting items and fighting bizarre monsters."
+      }),
+      new Picture ({
+        filename: 'hades.png',
+        link: 'http://www.johngoodman.io/house-of-hades/',
+        caption: "Procedurally generated text adventure game.",
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "Robotopia",
     date: '20170801',
-    tags: [],
+    tags: ['games'],
     body: [
       new Block ({
         text: "New strategy game -- you play as a hostile AI banished to the frozen arctic after a failed robot uprising. Build up your infrastructure and compete with the tundra's organic inhabitants for resources."
