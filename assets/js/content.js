@@ -36,9 +36,25 @@ var contentList = [
   // }),
 
   new Article ({
+    title: "Heydays",
+    date: '20180525',
+    tags: [],
+    body: [
+      new Picture ({
+        filename: 'heydays.png',
+        link: 'http://heydaystheshow.com',
+        caption: "Promotional website for Heydays, premiering in August of 2018.",
+      }),
+      new Block ({
+        text: "Promotional website for an upcoming outdoor performance in Prospect Park by the Brouhaha Theater Project."
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "The House of Hades",
     date: '20180513',
-    tags: [],
+    tags: ['games'],
     body: [
       new Block ({
         text: "A text-based adventure game where you explore the weird horrors of a procedurally generated mansion, collecting items and fighting bizarre monsters."
