@@ -46,10 +46,10 @@ var contentList = [
       new Picture ({
         filename: 'heydays.png',
         link: 'http://heydaystheshow.com',
-        caption: "Promotional website that I designed and illustrated for an upcoming immersive theater production. <a href='./heydays-images.html'>Click here to see just the images</a>.",
+        caption: "Promotional website that I designed and illustrated for an upcoming immersive theater production.",
       }),
       new Block ({
-        text: `Had a lot of fun recreating locations from around Brooklyn and Queens for this one, and each of the backgrounds for the site's three screens (accessible by clicking the "More about the show" and "About us" buttons) depicts a different neighborhood or location, from left to right: Prospect Park, Bed-Stuy, and Ridgewood.`
+        text: `Had a lot of fun recreating locations from around Brooklyn and Queens for this one, and each of the backgrounds for the site's three screens (accessible by clicking the "More about the show" and "About us" buttons) depicts a different neighborhood or location, from left to right: Prospect Park, Bed-Stuy, and Ridgewood. If you want to get a better look at the background images in isolation you can <a href='./heydays-images.html'>click over here</a>.`
       }),
     ]
   }),
