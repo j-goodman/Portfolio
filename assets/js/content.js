@@ -37,16 +37,38 @@ var contentList = [
 
   new Article ({
     title: "Heydays",
-    date: '20180525',
+    date: '20180601',
     tags: [],
     body: [
+      new Block ({
+        text: "This one's a website I made for an upcoming production by the <a href='http://www.brouhahatheatreproject.org'>Brouhaha Theatre Project</a>, who I've been involved with for their past two productions as a performer. It uses a custom-programmed parallax scroll effect I built with vanilla JS and HTML Canvas, with the goal of creating a good depth of field to make the viewer feel immersed in the site."
+      }),
       new Picture ({
         filename: 'heydays.png',
         link: 'http://heydaystheshow.com',
-        caption: "Promotional website for Heydays, premiering in August of 2018.",
+        caption: "Promotional website that I designed and illustrated for an upcoming immersive theater production. <a href='./heydays-images.html'>Click here to see just the images</a>.",
       }),
       new Block ({
-        text: "Promotional website for an upcoming outdoor performance in Prospect Park by the Brouhaha Theater Project."
+        text: `Had a lot of fun recreating locations from around Brooklyn and Queens for this one, and each of the backgrounds for the site's three screens (accessible by clicking the "More about the show" and "About us" buttons) depicts a different neighborhood or location, from left to right: Prospect Park, Bed-Stuy, and Ridgewood.`
+      }),
+    ]
+  }),
+
+  new Article ({
+    title: "Arcos",
+    date: '20180525',
+    tags: ['games'],
+    body: [
+      new Block ({
+        text: "A digital interface for a card game I invented a few years back called Arcos. The idea is it's kind of a rock-paper-scissors set up, but with six options instead of three and with one of them skewed to be way more powerful than the others. The fact that one card, the King, is objectively the best, is the source of the strategy aspect of the game -- it's about predicting when your opponent's going to make the obvious safe choice and when they're going to take a risk."
+      }),
+      new Picture ({
+        filename: 'arcos.png',
+        link: 'http://www.johngoodman.io/arcos',
+        caption: "Hand-illustrated original card game played against a simple machine-learning AI. <a href='./arcos-images.html'>Click here to see just the images</a>.",
+      }),
+      new Block ({
+        text: "This particular application of the game has you playing against a computer player with a basic machine-learning system guiding its decisions. The very first round you play against the computer, it'll be choosing a card totally at random. After that, it uses the results of previous rounds to inform its decision-making."
       }),
     ]
   }),
@@ -63,6 +85,22 @@ var contentList = [
         filename: 'hades.png',
         link: 'http://www.johngoodman.io/house-of-hades/',
         caption: "Procedurally generated text adventure game.",
+      }),
+    ]
+  }),
+
+  new Article ({
+    title: "Animation Sample",
+    date: '20180109',
+    tags: [],
+    body: [
+      new Picture ({
+        filename: 'jekyll-and-hyde.gif',
+        link: './jekyll.html',
+        caption: "Hand-drawn .gif animation.",
+      }),
+      new Block ({
+        text: "A demo hand-drawn animation I made using a Wacom Tablet and Photoshop. The subject is the transformation scene from the Strange Case of Dr. Jekyll and Mr. Hyde. This was an early crack at animation for me so there's a lot I'd do differently if I were to re-make it, but I ended up happy with the general effect of it. In the future I want to get a chance to explore more animated lighting effects like what you see at the very end of this one when Hyde smashes the lamp."
       }),
     ]
   }),
@@ -256,25 +294,6 @@ var contentList = [
   }),
 
   new Article ({
-    title: "The Wendigo",
-    date: '20160822',
-    tags: [],
-    body: [
-      new Block ({
-        text: "I wanted to make a text-adventure game building system that was straightforward and adaptable enough that when I finally get around to making one I'll have all the heavy mechanical lifting already done. This one includes traveling logic, stats, inventory, and a turn-based combat system."
-      }),
-      new Picture ({
-        filename: 'thewendigo.png',
-        link: 'http://www.johngoodman.io/wendigo/',
-        caption: "An in-progress text adventure game.",
-      }),
-      new Block ({
-        text: "From a development philosophy perspective, my goal here was to take Javascript objects as literally as possible -- for instance, when the user picks up an object from their environment, the object where that item's data is stored is moved from being recorded in the room object to being kept in the player's inventory object, as you might intuitively expect. Unfortunately the 'progress' lately is more theoretically than practical on this project."
-      }),
-    ]
-  }),
-
-  new Article ({
     title: "Third Person Shooter Demo",
     date: '20160804',
     tags: [],
@@ -348,7 +367,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'cloudcast.png',
-        link: 'http://www.cloudcast.space/',
+        link: 'http://cloud-cast.herokuapp.com/',
         caption: "An audio sharing site designed for podcast creators, inspired by SoundCloud.",
       }),
     ]
