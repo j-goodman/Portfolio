@@ -41,7 +41,7 @@ var contentList = [
     tags: [],
     body: [
       new Block ({
-        text: "This one's a website I made for an upcoming production by the <a href='http://www.brouhahatheatreproject.org'>Brouhaha Theatre Project</a>, who I've been involved with for their past two productions as a performer. It uses a custom-programmed parallax scroll effect I built with vanilla JS and HTML Canvas, with the goal of creating a good depth of field to make the viewer feel immersed in the site."
+        text: "This one's a website I made for an upcoming production by the <a href='http://www.brouhahatheatreproject.org'>Brouhaha Theatre Project</a>, who I've been involved with for their past two productions as a performer. It uses a custom-programmed parallax scroll effect I built with vanilla JS and HTML Canvas, with the goal of creating a nice sense of depth to make the viewer feel immersed in the site. Was originally worried it might be difficult to adapt the format of this one to mobile, but ended up being especially satisfied with the mobile version in the end, since it gives a less obstructed view of the background."
       }),
       new Picture ({
         filename: 'heydays.png',
