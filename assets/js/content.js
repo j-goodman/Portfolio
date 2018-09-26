@@ -36,9 +36,44 @@ var contentList = [
   // }),
 
   new Article ({
+    title: "Action President",
+    date: '20180926',
+    tags: [''],
+    body: [
+      new Block ({
+        text: "My current project, using the technology I developed this past summer for writing and reading a new type of animated digital comic. It's designed to be read on a mobile device, but works fine on desktop too. Still working on it but I figured in the spirit of open-source development I'd make the work in progress public; here it is. Go ahead and mentally tack on a 'To be continued' to the end."
+      }),
+      new Picture ({
+        filename: 'action-president.jpg',
+        link: 'http://www.johngoodman.io/action-president',
+        caption: "Unfinished animated digital comic.",
+      }),
+    ]
+  }),
+
+  new Article ({
+    title: "Animated Comic System",
+    date: '20180811',
+    tags: ['animation'],
+    body: [
+      new Block ({
+        text: "This was something I’d wanted to build out the technology for for a while, but was waiting on a good story idea to preview it with. The idea is basically a medium that blends aspects of comics and animation, designed to be read on a phone screen. Each panel consists of a short animated sequence of frames, with the frame rate controlled by the rate at which the user scrolls down the page. To get a better sense of it, check out this preview, or my current work in progress, <a href='http://www.johngoodman.io/action-president/'> a short comic called Action President</a>."
+      }),
+      new Picture ({
+        filename: 'deeps.png',
+        link: 'http://www.johngoodman.io/animated-comic-preview',
+        caption: "Preview of a digital format that blends comics and traditional animation. Best viewed on mobile device.",
+      }),
+      new Block ({
+        text: `To develop the flipbook animation style I wanted I did some experimenting with a project I’d been planning called Deeps. Here are the preview panels I worked on as I was figuring out how to make scroll-locked animation work`
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "Heydays",
     date: '20180601',
-    tags: [],
+    tags: ['animation'],
     body: [
       new Block ({
         text: "This one's a website I made for an upcoming production by the <a href='http://www.brouhahatheatreproject.org'>Brouhaha Theatre Project</a>, who I've been involved with for their past two productions as a performer. It uses a custom-programmed parallax scroll effect I built with vanilla JS and HTML Canvas, with the goal of creating a nice sense of depth to make the viewer feel immersed in the site. Was originally worried it might be difficult to adapt the format of this one to mobile, but ended up being especially satisfied with the mobile version in the end, since it gives a less obstructed view of the background."
@@ -57,7 +92,7 @@ var contentList = [
   new Article ({
     title: "Arcos",
     date: '20180525',
-    tags: ['games'],
+    tags: ['games', 'animation'],
     body: [
       new Block ({
         text: "A digital interface for a card game I invented a few years back called Arcos. The idea is it's kind of a rock-paper-scissors set up, but with six options instead of three and with one of them skewed to be way more powerful than the others. The fact that one card, the King, is objectively the best, is the source of the strategy aspect of the game -- it's about predicting when your opponent's going to make the obvious safe choice and when they're going to take a risk."
@@ -92,7 +127,7 @@ var contentList = [
   new Article ({
     title: "Animation Sample",
     date: '20180109',
-    tags: [],
+    tags: ['animation'],
     body: [
       new Picture ({
         filename: 'jekyll-and-hyde.gif',

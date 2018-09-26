@@ -24,7 +24,7 @@ window.onload = function () {
     var title;
     about = document.getElementById('about');
     games = document.getElementById('games');
-    tools = document.getElementById('tools');
+    animation = document.getElementById('animation');
     all = document.getElementById('all');
     title = document.getElementById('title');
     about.onclick = function () {
@@ -33,8 +33,8 @@ window.onload = function () {
     games.onclick = function () {
       loadPage('games');
     };
-    tools.onclick = function () {
-      loadPage('tools');
+    animation.onclick = function () {
+      loadPage('animation');
     };
     all.onclick = function () {
       loadPage();
