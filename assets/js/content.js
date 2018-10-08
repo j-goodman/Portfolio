@@ -48,6 +48,9 @@ var contentList = [
         link: 'http://www.johngoodman.io/action-president',
         caption: "Unfinished animated digital comic.",
       }),
+      new Block ({
+        text: "I’m trying especially with this one to try to find and take advantage of the things this new medium offers that wouldn’t be available in traditional comics or animation. For instance the characters can communicate with gestures a lot more effectively than in a traditional comic, and can shift seamlessly from one location to another without an abrupt cut — as in the panel where the space station looming in the distance grows until it dominates the frame. These kinds of things can be approximated in comics, but not as concisely or effectively as with animation. Then over traditional animation the main advantage is being able to include text as dialogue and background information, as well as other finer details that would frustrate a viewer of an animated video with the need to keep pausing."
+      }),
     ]
   }),
 
