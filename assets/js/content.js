@@ -55,6 +55,19 @@ var contentList = [
   }),
 
   new Article ({
+    title: "Illustration Samples",
+    date: '20181109',
+    tags: ['animation'],
+    body: [
+      new Picture ({
+        filename: 'parking-lot.png',
+        link: 'http://www.johngoodman.io/illustration-samples',
+        caption: "A selection of digital illustration samples.",
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "Animated Comic System",
     date: '20180811',
     tags: ['animation'],
