@@ -61,7 +61,7 @@ var contentList = [
     body: [
       new Picture ({
         filename: 'parking-lot.png',
-        link: 'http://www.johngoodman.io/illustration-samples',
+        link: 'http://www.johngoodman.io/art',
         caption: "A selection of digital illustration samples.",
       }),
     ]
