@@ -37,20 +37,22 @@ var contentList = [
 
   new Article ({
     title: "Action President",
-    date: '20180926',
+    date: '20190111',
     tags: [''],
     body: [
       new Block ({
-        text: "My current project, using the technology I developed this past summer for writing and reading a new type of animated digital comic. It's designed to be read on a mobile device, but works fine on desktop too. Still working on it but I figured in the spirit of open-source development I'd make the work in progress public; here it is. Go ahead and mentally tack on a 'To be continued' to the end."
+        text: "This one was my first fully finished comic project, I'm pretty excited about it! It's only about a 5-6 minute read, and it uses an animation script I wrote where the progress of the animated image is locked to the user's scroll. So it's designed to be read on a mobile device, but works fine on desktop too."
       }),
       new Picture ({
-        filename: 'action-president.jpg',
-        link: 'http://www.johngoodman.io/action-president',
-        caption: "Unfinished animated digital comic.",
+        filename: 'action-president.png',
+        link: 'http://www.actionpresidentcomic.com',
+        caption: "An interactively animated digital comic about the 47th President of the United States and his ongoing one-man mission against the evils of solar energy.",
       }),
       new Block ({
-        text: "I’m trying especially with this one to try to find and take advantage of the things this new medium offers that wouldn’t be available in traditional comics or animation. For instance the characters can communicate with gestures a lot more effectively than in a traditional comic, and can shift seamlessly from one location to another without an abrupt cut — as in the panel where the space station looming in the distance grows until it dominates the frame. These kinds of things can be approximated in comics, but not as concisely or effectively as with animation. Then over traditional animation the main advantage is being able to include text as dialogue and background information, as well as other finer details that would frustrate a viewer of an animated video with the need to keep pausing."
+        text: "I tried especially with this one to try to find and take advantage of the things this new animation style offers that wouldn’t be available in traditional comics or animation. Take a look at <a href='http://www.actionpresidentcomic.com'>actionpresidentcomic.com</a>."
       }),
+      // text: "My current project, using the technology I developed this past summer for writing and reading a new type of animated digital comic. It's designed to be read on a mobile device, but works fine on desktop too. Still working on it but I figured in the spirit of open-source development I'd make the work in progress public; here it is. Go ahead and mentally tack on a 'To be continued' to the end."
+      // text: "I’m trying especially with this one to try to find and take advantage of the things this new medium offers that wouldn’t be available in traditional comics or animation. For instance the characters can communicate with gestures a lot more effectively than in a traditional comic, and can shift seamlessly from one location to another without an abrupt cut — as in the panel where the space station looming in the distance grows until it dominates the frame. These kinds of things can be approximated in comics, but not as concisely or effectively as with animation. Then over traditional animation the main advantage is being able to include text as dialogue and background information, as well as other finer details that would frustrate a viewer of an animated video with the need to keep pausing."
     ]
   }),
 
