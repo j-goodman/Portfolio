@@ -448,10 +448,10 @@ var contentList = [
     body: [
       new Picture ({
         filename: 'headshot.jpg',
-        caption: "Hi, I'm John Goodman, this is my personal site. You can look me up on <a href='https://github.com/j-goodman/DOMquixote' target='_blank'>Github</a> or just browse around here to see what I'm working on.",
+        caption: "Hi, I'm John Goodman, this is my personal site. You can look me up on <a href='https://github.com/j-goodman' target='_blank'>Github</a> or see my <a href='http://www.johngoodman.io/art' target='_blank'>art samples</a>, or just browse around here to see what I'm working on.",
       }),
       new Block ({
-        text: "I'm a full-stack web developer specializing in Javascript, Django, and Angular.js, living in Brooklyn. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. You can contact me at johncurtisgoodman@gmail.com"
+        text: "I'm a full-stack web developer specializing in Javascript, Django, and Angular.js, living in Brooklyn. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. I'm also accepting commisioned illustration work. You can contact me at johncurtisgoodman@gmail.com"
       }),
     ]
   }),
