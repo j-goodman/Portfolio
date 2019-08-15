@@ -36,6 +36,19 @@ var contentList = [
   // }),
 
   new Article ({
+    title: "Animation & Illustration Work",
+    date: '20190815',
+    tags: ['animation'],
+    body: [
+      new Picture ({
+        filename: 'parking-lot.png',
+        link: 'http://www.johngoodman.io/art',
+        caption: "A selection of digital illustration and animation samples, as well as the first two pages of a new work-in-progress graphic novel.",
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "Action President",
     date: '20190111',
     tags: [''],
@@ -53,19 +66,6 @@ var contentList = [
       }),
       // text: "My current project, using the technology I developed this past summer for writing and reading a new type of animated digital comic. It's designed to be read on a mobile device, but works fine on desktop too. Still working on it but I figured in the spirit of open-source development I'd make the work in progress public; here it is. Go ahead and mentally tack on a 'To be continued' to the end."
       // text: "I’m trying especially with this one to try to find and take advantage of the things this new medium offers that wouldn’t be available in traditional comics or animation. For instance the characters can communicate with gestures a lot more effectively than in a traditional comic, and can shift seamlessly from one location to another without an abrupt cut — as in the panel where the space station looming in the distance grows until it dominates the frame. These kinds of things can be approximated in comics, but not as concisely or effectively as with animation. Then over traditional animation the main advantage is being able to include text as dialogue and background information, as well as other finer details that would frustrate a viewer of an animated video with the need to keep pausing."
-    ]
-  }),
-
-  new Article ({
-    title: "Illustration Samples",
-    date: '20181109',
-    tags: ['animation'],
-    body: [
-      new Picture ({
-        filename: 'parking-lot.png',
-        link: 'http://www.johngoodman.io/art',
-        caption: "A selection of digital illustration samples.",
-      }),
     ]
   }),
 
@@ -448,10 +448,10 @@ var contentList = [
     body: [
       new Picture ({
         filename: 'headshot.jpg',
-        caption: "Hi, I'm John Goodman, this is my personal site. You can look me up on <a href='https://github.com/j-goodman' target='_blank'>Github</a> or see my <a href='http://www.johngoodman.io/art' target='_blank'>art samples</a>, or just browse around here to see what I'm working on.",
+        caption: "Hi, I'm John Goodman, this is my personal site. You see my <a href='http://www.johngoodman.io/art' target='_blank'>art samples here</a>, or just browse around here to see what else I'm working on.",
       }),
       new Block ({
-        text: "I'm a full-stack web developer specializing in Javascript, Django, and Angular.js, living in Brooklyn. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. I'm also accepting commisioned illustration work. You can contact me at johncurtisgoodman@gmail.com"
+        text: "I'm an animator, and illustrator. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. I'm also accepting commisioned illustration & animation work: you can contact me at johncurtisgoodman@gmail.com"
       }),
     ]
   }),
