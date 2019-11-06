@@ -59,7 +59,7 @@ var contentList = [
       new Picture ({
         filename: 'action-president.png',
         link: 'http://www.actionpresidentcomic.com',
-        caption: "An interactively animated digital comic about the 47th President of the United States and his ongoing one-man mission against the evils of solar energy.",
+        caption: "A digital comic built on a custom piece of software I invented for reading animated comics on a mobile device.",
       }),
       new Block ({
         text: "I tried especially with this one to try to find and take advantage of the things this new animation style offers that wouldn’t be available in traditional comics or animation. Take a look at <a href='http://www.actionpresidentcomic.com'>actionpresidentcomic.com</a>."
@@ -451,7 +451,7 @@ var contentList = [
         caption: "Hi, I'm John Goodman, this is my personal site. You see my <a href='http://www.johngoodman.io/art' target='_blank'>art samples here</a>, or just browse around here to see what else I'm working on.",
       }),
       new Block ({
-        text: "I'm an animator, and illustrator. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. I'm also accepting commisioned illustration & animation work: you can contact me at johncurtisgoodman@gmail.com"
+        text: "I'm an animator, and illustrator. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. I'm also accepting commisioned illustration & animation work: ou can contact me at johncurtisgoodman@gmail.com"
       }),
     ]
   }),
