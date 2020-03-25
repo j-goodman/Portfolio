@@ -36,7 +36,18 @@ var contentList = [
   // }),
 
   new Article ({
-    title: "Animation & Illustration Work",
+    title: "Animation Demo Reel",
+    date: '20200325',
+    tags: ['animation'],
+    body: [
+      new Block ({
+        text: `<iframe src="https://player.vimeo.com/video/382960970" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+      }),
+    ]
+  }),
+
+  new Article ({
+    title: "Illustration Work",
     date: '20190815',
     tags: ['animation'],
     body: [
