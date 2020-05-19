@@ -46,6 +46,26 @@ var contentList = [
     ]
   }),
 
+
+  new Article ({
+    title: "Heydays",
+    date: '20180601',
+    tags: ['animation'],
+    body: [
+      new Block ({
+        text: "This one's a website I made for an upcoming production by the <a href='http://www.brouhahatheatreproject.org'>Brouhaha Theatre Project</a>, who I've been involved with for their past two productions as a performer. It uses a custom-programmed parallax scroll effect I built with vanilla JS and HTML Canvas, with the goal of creating a nice sense of depth to make the viewer feel immersed in the site. Was originally worried it might be difficult to adapt the format of this one to mobile, but ended up being especially satisfied with the mobile version in the end, since it gives a less obstructed view of the background."
+      }),
+      new Picture ({
+        filename: 'heydays.png',
+        link: 'http://heydaystheshow.com',
+        caption: "Promotional website that I designed and illustrated for an upcoming immersive theater production.",
+      }),
+      new Block ({
+        text: `Had a lot of fun recreating locations from around Brooklyn and Queens for this one, and each of the backgrounds for the site's three screens (accessible by clicking the "More about the show" and "About us" buttons) depicts a different neighborhood or location, from left to right: Prospect Park, Bed-Stuy, and Ridgewood. If you want to get a better look at the background images in isolation you can <a href='./heydays-images.html'>click over here</a>.`
+      }),
+    ]
+  }),
+
   new Article ({
     title: "Illustration Work",
     date: '20190815',
@@ -80,6 +100,39 @@ var contentList = [
     ]
   }),
 
+
+  new Article ({
+    title: "Robotopia",
+    date: '20170801',
+    tags: ['games'],
+    body: [
+      new Block ({
+        text: "New strategy game -- you play as a hostile AI banished to the frozen arctic after a failed robot uprising. Build up your infrastructure and compete with the tundra's organic inhabitants for resources."
+      }),
+      new Picture ({
+        filename: 'robotopia.png',
+        link: 'http://www.johngoodman.io/robotopia/',
+        caption: "Resource based strategy game.",
+      }),
+    ]
+  }),
+
+  new Article ({
+    title: "Google EDU Transformation Center",
+    date: '20170304',
+    tags: [],
+    body: [
+      new Block ({
+        text: "A web app built for the Google Education team with a full backend CMS and custom search system. Lets school administrators upload ideas about what has and hasn't worked for them when it comes to using Google technology for education."
+      }),
+      new Picture ({
+        filename: 'transformation.png',
+        link: 'https://edutransformationcenter.withgoogle.com/',
+        caption: "Full stack webapp for the Google Education team.",
+      }),
+    ]
+  }),
+
   new Article ({
     title: "Animated Comic System",
     date: '20180811',
@@ -95,25 +148,6 @@ var contentList = [
       }),
       new Block ({
         text: `To develop the flipbook animation style I wanted I did some experimenting with a project I’d been planning called Deeps. Here are the preview panels I worked on as I was figuring out how to make scroll-locked animation work`
-      }),
-    ]
-  }),
-
-  new Article ({
-    title: "Heydays",
-    date: '20180601',
-    tags: ['animation'],
-    body: [
-      new Block ({
-        text: "This one's a website I made for an upcoming production by the <a href='http://www.brouhahatheatreproject.org'>Brouhaha Theatre Project</a>, who I've been involved with for their past two productions as a performer. It uses a custom-programmed parallax scroll effect I built with vanilla JS and HTML Canvas, with the goal of creating a nice sense of depth to make the viewer feel immersed in the site. Was originally worried it might be difficult to adapt the format of this one to mobile, but ended up being especially satisfied with the mobile version in the end, since it gives a less obstructed view of the background."
-      }),
-      new Picture ({
-        filename: 'heydays.png',
-        link: 'http://heydaystheshow.com',
-        caption: "Promotional website that I designed and illustrated for an upcoming immersive theater production.",
-      }),
-      new Block ({
-        text: `Had a lot of fun recreating locations from around Brooklyn and Queens for this one, and each of the backgrounds for the site's three screens (accessible by clicking the "More about the show" and "About us" buttons) depicts a different neighborhood or location, from left to right: Prospect Park, Bed-Stuy, and Ridgewood. If you want to get a better look at the background images in isolation you can <a href='./heydays-images.html'>click over here</a>.`
       }),
     ]
   }),
@@ -165,38 +199,6 @@ var contentList = [
       }),
       new Block ({
         text: "A demo hand-drawn animation I made using a Wacom Tablet and Photoshop. The subject is the transformation scene from the Strange Case of Dr. Jekyll and Mr. Hyde. This was an early crack at animation for me so there's a lot I'd do differently if I were to re-make it, but I ended up happy with the general effect of it. In the future I want to get a chance to explore more animated lighting effects like what you see at the very end of this one when Hyde smashes the lamp."
-      }),
-    ]
-  }),
-
-  new Article ({
-    title: "Robotopia",
-    date: '20170801',
-    tags: ['games'],
-    body: [
-      new Block ({
-        text: "New strategy game -- you play as a hostile AI banished to the frozen arctic after a failed robot uprising. Build up your infrastructure and compete with the tundra's organic inhabitants for resources."
-      }),
-      new Picture ({
-        filename: 'robotopia.png',
-        link: 'http://www.johngoodman.io/robotopia/',
-        caption: "Resource based strategy game.",
-      }),
-    ]
-  }),
-
-  new Article ({
-    title: "Google EDU Transformation Center",
-    date: '20170304',
-    tags: [],
-    body: [
-      new Block ({
-        text: "A web app built for the Google Education team with a full backend CMS and custom search system. Lets school administrators upload ideas about what has and hasn't worked for them when it comes to using Google technology for education."
-      }),
-      new Picture ({
-        filename: 'transformation.png',
-        link: 'https://edutransformationcenter.withgoogle.com/',
-        caption: "Full stack webapp for the Google Education team.",
       }),
     ]
   }),
